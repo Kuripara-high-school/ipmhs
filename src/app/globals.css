@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* --primary-bg: #F59E0B; */
+  /* --sec-bg: #2563EB; */
+  --primary-bg: #F59E0B;
+  --sec-bg: #2563EB;
+  --margin-low: 60px;
+  --margin-primary: 80px;
+  --margin-high: 160px
+}
+
+
+@layer utilities {
+  /* margin primary */
+  .mt-primary{
+    @apply mt-[var(--margin-primary)] ;
+  }
+  .mb-primary{
+    @apply mb-[var(--margin-primary)] ;
+  }
+  .pt-primary{
+    @apply pt-[var(--margin-primary)] ;
+  }
+  .pb-primary{
+    @apply pb-[var(--margin-primary)] ;
+  }
+  /* -- margin low */
+  .mt-low{
+    @apply mt-[var(--margin-low)] ;
+  }
+  .mb-low{
+    @apply mb-[var(--margin-low)] ;
+  }
+  .pt-low{
+    @apply pt-[var(--margin-low)] ;
+  }
+  .pb-low{
+    @apply pb-[var(--margin-low)] ;
+  }
+  /* -- margin high */
+  .mt-high{
+    @apply mt-[var(--margin-high)] ;
+  }
+  .mb-high{
+    @apply mb-[var(--margin-high)] ;
+  }
+  .pt-high{
+    @apply pt-[var(--margin-high)] ;
+  }
+  .pb-high{
+    @apply pb-[var(--margin-high)] ;
+  }
+  /* -- background color */
+  .bg-primary{
+    @apply bg-amber-500 ;
+  }
+  .bg-sec{
+    @apply bg-blue-600 ;
+  }
+  /* -- text styling */
+  .text-header{
+    @apply text-xl md:text-3xl font-semibold ;
+  }
+  /* -- flex box */
+  .flex-c-center{
+    @apply flex flex-col items-center ;
+  }
+  .flex-column{
+    @apply flex flex-col ;
+  }
+  .flex-center{
+    @apply flex flex-col items-center justify-center ;
+  }
+  /* set the max whide */
+  .max-width{
+    @apply  max-w-[1170px] mx-auto  px-4 sm:px-8 xl:px-0 ;
+  }
+}
+
+.svg-white {
+  /* filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg); # for blue color */
+  filter: invert(1);
+
+}
