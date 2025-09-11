@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ipmhs.vercel.app
+
+# Sitemaps
+Sitemap: https://ipmhs.vercel.app/sitemap.xml

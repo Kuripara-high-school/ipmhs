@@ -2,7 +2,7 @@ import Image from "next/image";
 import school from "@/assets/image/school-clear.png";
 import Navbar from "@/components/navigation/nabvar";
 import Footer from "@/components/navigation/footer";
-import School_image from "@/assets/image/imner-clear.webp";
+// import School_image from "@/assets/image/imner-clear.webp";
 import Libary from "@/components/about/libary";
 import Sciencelab from "@/components/about/sciencelab";
 import Map from "@/components/home/map";
