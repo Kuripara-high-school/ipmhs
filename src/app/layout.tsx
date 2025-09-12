@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Script from 'next/script';
 
 const geistSans = localFont({
   src: "../assets/fonts/GeistVF.woff",
@@ -18,6 +19,9 @@ export const metadata: Metadata = {
   title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয় | IPMHS",
   description:
     "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়, কালিপুর বাজার, মতলব উত্তর, চাঁদপুর। অফিসিয়াল ওয়েবসাইটে স্কুল সম্পর্কিত তথ্য, নোটিশ, রেজাল্ট এবং অন্যান্য গুরুত্বপূর্ণ তথ্য পাওয়া যাবে।",
+  icons: {
+    icon: '/favicon.png',
+  },
   keywords: [
     "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     "Imampur Palli Mangal High School",
@@ -79,6 +83,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-6YNCDB07NY`}
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6YNCDB07NY');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

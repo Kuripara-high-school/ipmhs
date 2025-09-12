@@ -60,6 +60,41 @@ export default function Footer() {
                     © 2025 All rights reserved | Designed & Developed by{" "}
                     <span className="font-semibold">Ashraful Pathan</span>
                 </p>
+                <div className="the-text text-white">
+                    <a href="https://www.google.com/">a</a>
+                    <a href="https://www.facebook.com/">b</a>
+                    <a href="https://x.com/AshrafulPa25233">c</a>
+                    <a href="https://discord.gg/XzD3KPWP">d</a>
+                    <a href="https://kuripara-high-school.vercel.app/">e</a>
+                    <a href="https://kuriparahs.edu.bd/">2</a>
+                    <a href="https://www.dhakacollege.edu.bd/en">f</a>
+                    <a href="https://www.du.ac.bd/">g</a>
+                    <a href="https://www.uniranks.com/ranking/bangladesh">h</a>
+                    <a href="https://www.sohopathi.com/rank/top-20-schools-in-chandpur-district/">i</a>
+                    <a href="https://dis.edu.bd/chandpur-version">k</a>
+                    <a href="https://ashraful-pathan.web.app/">j</a>
+                    <a href="https://www.ashraful.top/">school</a>
+                    <a href="https://github.com/AshrafulPatHan">school</a>
+                    <a href="https://www.facebook.com/p/-%E0%A6%87%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2-%E0%A6%89%E0%A6%9A%E0%A7%8D%E0%A6%9A-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F--100066806514589/?locale=bn_IN">school</a>
+                    <a href="https://dshe.portal.gov.bd/">school</a>
+                    <a href="https://en.wikipedia.org/wiki/Secondary_school">school</a>
+                    <a href="http://www.tgghsd.edu.bd/">school</a>
+                    <a href="https://www.dcgpsc.edu.bd/">school</a>
+                    <a href="https://igsc.edu.bd/">school</a>
+                    <a href="https://sagc.edu.bd/">school</a>
+                    <a href="https://dcghs.edu.bd/">school</a>
+                    <a href="https://anandamoyeeghs.edu.bd/">school</a>
+                    <a href="https://sgc.edu.bd/">school</a>
+                    <a href="https://www.bbggc.gov.bd/en">school</a>
+                    <a href="http://www.dhakamohilacollege.edu.bd/">school</a>
+                    <a href="https://www.dhakacitycollege.edu.bd/">school</a>
+                    <a href="https://ndc.edu.bd/">school</a>
+                    <a href="https://www.isdbd.org/">school</a>
+                    <a href="https://www.aisdhaka.org/">school</a>
+                    <a href="https://premierschooldhaka.com/">school</a>
+                    <a href="https://bd.ambafrance.org/The-French-International-School-of-Dhaka-EFID">school</a>
+                    <a href="">school</a>
+                </div>
             </div>
         </footer>
     );
