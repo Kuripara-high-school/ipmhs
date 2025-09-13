@@ -11,7 +11,7 @@ export default function Teacher() {
                     <div className="bg-[#f8f4f4] rounded-[8px] shadow-2xl hover:shadow-2xs w-[97vw] sm:w-[277px] h-[300px] flex items-center justify-center">
                         <div className="flex flex-col items-center">
                             <Image
-                                src="https://i.ibb.co.com/tMfm0H67/image.webp"
+                                src="/person.jpeg"
                                 width={160}
                                 height={200}
                                 alt="sir"
@@ -45,7 +45,7 @@ export default function Teacher() {
                     <div className="bg-[#f8f4f4] rounded-[8px] w-[97vw] sm:w-[200px] xl:w-[277px] py-6 flex items-center hover:shadow-2xl justify-center">
                         <div className="flex flex-col items-center">
                             <Image
-                                src="https://i.ibb.co.com/tMfm0H67/image.webp"
+                                src="/person.jpeg"
                                 alt="sir"
                                 width={160}
                                 height={200}
@@ -58,7 +58,7 @@ export default function Teacher() {
                     <div className="bg-[#f8f4f4] rounded-[8px] w-[97vw] sm:w-[200px] xl:w-[277px] py-6 flex items-center hover:shadow-2xl justify-center">
                         <div className="flex flex-col items-center">
                             <Image
-                                src="https://i.ibb.co.com/tMfm0H67/image.webp"
+                                src="/person.jpeg"
                                 alt="sir"
                                 width={160}
                                 height={200}
@@ -71,7 +71,7 @@ export default function Teacher() {
                     <div className="bg-[#f8f4f4] rounded-[8px] w-[97vw] sm:w-[200px] xl:w-[277px] py-6 flex items-center hover:shadow-2xl justify-center">
                         <div className="flex flex-col items-center">
                             <Image
-                                src="https://i.ibb.co.com/tMfm0H67/image.webp"
+                                src="/person.jpeg"
                                 alt="sir"
                                 width={160}
                                 height={200}
@@ -84,7 +84,7 @@ export default function Teacher() {
                     <div className="bg-[#f8f4f4] rounded-[8px] w-[97vw] sm:w-[200px] xl:w-[277px] py-6 flex items-center hover:shadow-2xl justify-center">
                         <div className="flex flex-col items-center">
                             <Image
-                                src="https://i.ibb.co.com/tMfm0H67/image.webp"
+                                src="/person.jpeg"
                                 alt="sir"
                                 width={160}
                                 height={200}

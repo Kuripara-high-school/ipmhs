@@ -1,5 +1,5 @@
-import Image from "next/image";
-import school from "@/assets/image/school-clear.png";
+// import Image from "next/image";
+// import school from "@/assets/image/school-clear.png";
 import Navbar from "@/components/navigation/nabvar";
 import Footer from "@/components/navigation/footer";
 // import School_image from "@/assets/image/imner-clear.webp";
@@ -16,7 +16,16 @@ export default function AboutPage() {
       <Navbar />
       <div className="relative max-w-screen overflow-x-hidden">
         <div className="w-[100%]">
-          <Image src={school} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" className="w-[100vw] h-[49vw] lg:h-[20vw] object-cover  " />
+          {/* <Image src={school} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" className="w-[100vw] h-[49vw] lg:h-[20vw] object-cover  " /> */}
+          <video
+            src="https://ashraful332.github.io/rr/video/video.webm"
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-[100vw] h-[49vw] lg:h-[20vw] object-cover"
+          />
+
         </div>
         <div className="absolute top-2 left-2 bg-[#ffffff17] backdrop-blur-[1.4px] p-2 md:p-6 rounded-lg sm:rounded-xl md:rounded-2xl border border-[#ffffff4f] ">
           <div className="bg-gradient-to-t from-amber-400 to-white bg-clip-text text-transparent ">

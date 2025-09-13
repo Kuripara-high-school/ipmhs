@@ -1,6 +1,6 @@
 import Image from "next/image";
 import miner from "@/assets/image/imner-clear.webp";
-import sir from "@/assets/image/sir.jpg";
+import sir from "@/assets/image/student2.jpg";
 import min from "@/assets/image/miner.webp";
 import book from "@/assets/image/book.jpg";
 
@@ -26,7 +26,7 @@ export default function Student_Photo() {
                         {/* overlay text */}
                         <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                             <p className="text-white text-lg font-bold">
-                                প্রধান শিক্ষক
+                                শিক্ষার্থী
                             </p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export default function Student_Photo() {
                         {/* overlay text */}
                         <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                             <p className="text-white text-lg font-bold">
-                                প্রধান শিক্ষক
+                                শিক্ষার্থী
                             </p>
                         </div>
                     </div>

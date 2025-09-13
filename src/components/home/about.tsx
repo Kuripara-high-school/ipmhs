@@ -19,7 +19,7 @@ export default function About() {
                 <div className="w-full lg:w-[55%] space-y-4">
                     <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent ">
                         <h1 className="text-header">
-                            ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
+                            এলাকা সনদঃ
                         </h1>
                     </div>
                     <p className="text-gray-700 leading-relaxed">

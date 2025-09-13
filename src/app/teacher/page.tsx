@@ -1,18 +1,44 @@
 
 
 import Image from "next/image";
-import school from "@/assets/image/school-clear.png";
+import school from "@/assets/image/teacher.jpg";
 import image from "@/assets/image/school.webp";
 import Navbar from "@/components/navigation/nabvar";
 import Footer from "@/components/navigation/footer";
 
 export default function TeacherPage() {
+
+  const teachers = [
+    { name: "মোসাঃ সেলিনা পারভীন", designation: "ভারপ্রাপ্ত প্রধান শিক্ষক", photo: "/avatar.svg" },
+    { name: "ছবির আহাম্মদ", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
+    { name: "ফারুক আহাম্মদ", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
+    { name: "আবু আসাদ মোঃ নওশের আজম", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
+    { name: "মোঃ ওবায়েদুল্লাহ", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { name: "মোহাম্মদ শেখ সাদী", designation: "সহঃ শিক্ষক শরীর চর্চা", photo: "/avatar.svg" },
+    { name: "শেখ ফরিদ", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { name: "মোসাম্মৎ জয়নব সুলতানা", designation: "সহকারী  গ্রন্থগারিক", photo: "/avatar.svg" },
+    { name: "মোসাম্মদৎ জয়নব সুলতানা", designation: "সহকারী  গ্রন্থগারিক", photo: "/avatar.svg" },
+    { name: "শরিনা আক্তার", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { name: "আব্দুল্লাহ আল মামুন", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { name: "কাজী শামসুন নাহার", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { name: "উ¤েœ সালমা", designation: "সহকারী শিক্ষক -৩", photo: "/avatar.svg" },
+    { name: "মোঃ কামাল হোসেন", designation: "সহকারী শিক্ষক-৯", photo: "/avatar.svg" },
+    { name: "পারভেজ মিয়া", designation: "অফিস সহকারী কাম", photo: "/avatar.svg" },
+    { name: "মোঃ সিদ্দিকুর রহমান", designation: "নিরাপত্তা কর্মী", photo: "/avatar.svg" },
+    { name: "রুবেল প্রধান", designation: "পরিচ্ছান্নতা কর্মী", photo: "/avatar.svg" },
+    { name: "মোঃ ওয়াছকুরুনী", designation: "আফিস সহায়ক", photo: "/avatar.svg" },
+    { name: "তানজিলা আক্তার", designation: "আয়া", photo: "/avatar.svg" },
+    { name: "মোঃ আল আমিন", designation: "নৈশ প্রহরী", photo: "/avatar.svg" },
+    // { name: "", designation: "", photo: "/avatar.svg" },
+    
+  ];
+
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className="relative">
         <div className="w-[100%]">
-          <Image src={school} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" className="w-[100vw] h-[49vw] lg:h-[20vw] object-cover  " />
+          <Image src={school} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" className="w-[100vw] h-[49vw] lg:h-[20vw] object-cover   " />
         </div>
         <div className="absolute top-2 left-2 bg-[#ffffff17] backdrop-blur-[1.4px] p-2 md:p-6 rounded-lg sm:rounded-xl md:rounded-2xl border border-[#ffffff4f] ">
           <div className="bg-gradient-to-t from-amber-400 to-white bg-clip-text text-transparent ">
@@ -26,157 +52,28 @@ export default function TeacherPage() {
 
       <div className="flex flex-col items-center mb-high">
         <h3 className="text-header text-center mt-low mb-low" >All Teacher</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 leading-3 2xl:grid-cols-4 gap-5">
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-[400px] h-[400px] rounded-2xl bg-black/30 overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
-            {/* Image */}
-            <Image
-              src={image}
-              alt="photo"
-              className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
-
-            {/* Text Content */}
-            <div className="absolute bottom-0 p-5 text-white">
-              <p className="font-semibold text-lg leading-snug italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
-              </p>
-              <button className="mt-3 px-4 py-2 rounded-lg border-2 border-[var(--primary-bg)] text-sm font-medium shadow-md hover:bg-primary transition-all duration-300">
-                Read More
-              </button>
-            </div>
+        <div>
+          {/* all teacher data */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
+            {teachers.map((teacher, index) => (
+              <div key={index} className="bg-[#f3efef] rounded-lg py-6 px-1 flex flex-col items-center hover:shadow-xl hover:shadow-gray-300">
+                <Image
+                  src={teacher.photo}
+                  alt={teacher.name}
+                  width={160}
+                  height={200}
+                  className="w-[160px] h-[200px] md:w-[200px] object-cover rounded-md"
+                />
+                <h3 className="mt-4 text-xl font-medium text-center">{teacher.name}</h3>
+                <div className="flex flex-col items-center gap-2">
+                  <p className="text-gray-700 text-center mx-auto ">{teacher.designation}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
