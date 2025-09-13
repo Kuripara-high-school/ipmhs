@@ -9,26 +9,26 @@ import Footer from "@/components/navigation/footer";
 export default function TeacherPage() {
 
   const teachers = [
-    { name: "মোসাঃ সেলিনা পারভীন", designation: "ভারপ্রাপ্ত প্রধান শিক্ষক", photo: "/avatar.svg" },
-    { name: "ছবির আহাম্মদ", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
-    { name: "ফারুক আহাম্মদ", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
-    { name: "আবু আসাদ মোঃ নওশের আজম", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
-    { name: "মোঃ ওবায়েদুল্লাহ", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
-    { name: "মোহাম্মদ শেখ সাদী", designation: "সহঃ শিক্ষক শরীর চর্চা", photo: "/avatar.svg" },
-    { name: "শেখ ফরিদ", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
-    { name: "মোসাম্মৎ জয়নব সুলতানা", designation: "সহকারী  গ্রন্থগারিক", photo: "/avatar.svg" },
-    { name: "মোসাম্মদৎ জয়নব সুলতানা", designation: "সহকারী  গ্রন্থগারিক", photo: "/avatar.svg" },
-    { name: "শরিনা আক্তার", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
-    { name: "আব্দুল্লাহ আল মামুন", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
-    { name: "কাজী শামসুন নাহার", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
-    { name: "উ¤েœ সালমা", designation: "সহকারী শিক্ষক -৩", photo: "/avatar.svg" },
-    { name: "মোঃ কামাল হোসেন", designation: "সহকারী শিক্ষক-৯", photo: "/avatar.svg" },
-    { name: "পারভেজ মিয়া", designation: "অফিস সহকারী কাম", photo: "/avatar.svg" },
-    { name: "মোঃ সিদ্দিকুর রহমান", designation: "নিরাপত্তা কর্মী", photo: "/avatar.svg" },
-    { name: "রুবেল প্রধান", designation: "পরিচ্ছান্নতা কর্মী", photo: "/avatar.svg" },
-    { name: "মোঃ ওয়াছকুরুনী", designation: "আফিস সহায়ক", photo: "/avatar.svg" },
-    { name: "তানজিলা আক্তার", designation: "আয়া", photo: "/avatar.svg" },
-    { name: "মোঃ আল আমিন", designation: "নৈশ প্রহরী", photo: "/avatar.svg" },
+    { subject:"" , name: "মোসাঃ সেলিনা পারভীন", designation: "ভারপ্রাপ্ত প্রধান শিক্ষক", photo: "/avatar.svg" },
+    { subject:"সামাজিক বিজ্ঞান" , name: "ছবির আহাম্মদ", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
+    { subject:"ব্যবসা শিক্ষা" , name: "ফারুক আহাম্মদ", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
+    { subject:"গনিত" , name: "আবু আসাদ মোঃ নওশের আজম", designation: "সহকারী শিক্ষক", photo: "/avatar.svg" },
+    { subject:"ইসলাম ধর্ম" , name: "মোঃ ওবায়েদুল্লাহ", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { subject:"" , name: "মোহাম্মদ শেখ সাদী", designation: "সহঃ শিক্ষক শরীর চর্চা", photo: "/avatar.svg" },
+    { subject:"কৃষি/গার্হস্থ্য" , name: "শেখ ফরিদ", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { subject:"" , name: "মোসাম্মৎ জয়নব সুলতানা", designation: "সহকারী  গ্রন্থগারিক", photo: "/avatar.svg" },
+    { subject:"" , name: "মোসাম্মদৎ জয়নব সুলতানা", designation: "সহকারী  গ্রন্থগারিক", photo: "/avatar.svg" },
+    { subject:"ভৌত বিজ্ঞান " , name: "শরিনা আক্তার", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { subject:"জীব বিজ্ঞান" , name: "আব্দুল্লাহ আল মামুন", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { subject:"কম্পিউটার" , name: "কাজী শামসুন নাহার", designation: "সহঃ শিক্ষক", photo: "/avatar.svg" },
+    { subject:"সামাজিক বিজ্ঞান" , name: "উ¤েœ সালমা", designation: "সহকারী শিক্ষক -৩", photo: "/avatar.svg" },
+    { subject:"ইংরেজী" , name: "মোঃ কামাল হোসেন", designation: "সহকারী শিক্ষক-৯", photo: "/avatar.svg" },
+    { subject:"( হিসাব সহকারী)" , name: "পারভেজ মিয়া", designation: "অফিস সহকারী কাম", photo: "/avatar.svg" },
+    { subject:"" , name: "মোঃ সিদ্দিকুর রহমান", designation: "নিরাপত্তা কর্মী", photo: "/avatar.svg" },
+    { subject:"" , name: "রুবেল প্রধান", designation: "পরিচ্ছান্নতা কর্মী", photo: "/avatar.svg" },
+    { subject:"" , name: "মোঃ ওয়াছকুরুনী", designation: "আফিস সহায়ক", photo: "/avatar.svg" },
+    { subject:"" , name: "তানজিলা আক্তার", designation: "আয়া", photo: "/avatar.svg" },
+    { subject:"" , name: "মোঃ আল আমিন", designation: "নৈশ প্রহরী", photo: "/avatar.svg" },
     // { name: "", designation: "", photo: "/avatar.svg" },
     
   ];
@@ -65,8 +65,9 @@ export default function TeacherPage() {
                   className="w-[160px] h-[200px] md:w-[200px] object-cover rounded-md"
                 />
                 <h3 className="mt-4 text-xl font-medium text-center">{teacher.name}</h3>
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center ">
                   <p className="text-gray-700 text-center mx-auto ">{teacher.designation}</p>
+                  <p className="text-gray-500 text-center mx-auto mt-2 ">{teacher.subject}</p>
                 </div>
               </div>
             ))}
