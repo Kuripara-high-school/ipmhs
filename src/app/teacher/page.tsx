@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import school from "@/assets/image/teacher.jpg";
-import image from "@/assets/image/school.webp";
+// import image from "@/assets/image/school.webp";
 import Navbar from "@/components/navigation/nabvar";
 import Footer from "@/components/navigation/footer";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import miner from "@/assets/image/imner-clear.webp";
-import sir from "@/assets/image/sir.jpg";
+// import sir from "@/assets/image/sir.jpg";
 import min from "@/assets/image/miner.webp";
 import book from "@/assets/image/book.jpg";
 
