@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 // seo
 export const metadata: Metadata = {
-  title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয় | IPMHS",
+  title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয় | Imampur Palli Mangal High School",
   description:
     "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়, কালিপুর বাজার, মতলব উত্তর, চাঁদপুর। অফিসিয়াল ওয়েবসাইটে স্কুল সম্পর্কিত তথ্য, নোটিশ, রেজাল্ট এবং অন্যান্য গুরুত্বপূর্ণ তথ্য পাওয়া যাবে।",
   icons: {

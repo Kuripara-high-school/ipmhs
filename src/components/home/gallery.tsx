@@ -9,9 +9,9 @@ export default function Gallery() {
         <div className="max-width flex flex-col items-center mt-primary mx-auto">
             <div>
                 <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent mb-10 ">
-                    <h1 className="text-header text-center">
+                    <h2 className="text-header text-center">
                         ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
-                    </h1>
+                    </h2>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-4">
                     {/* big image */}

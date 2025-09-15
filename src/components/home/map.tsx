@@ -7,9 +7,9 @@ export default function Map() {
   return (
     <div className="mt-high">
       <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent ">
-        <h1 className="text-header text-center mb-5">
+        <h2 className="text-header text-center mb-5">
           ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
-        </h1>
+        </h2>
       </div>
       <p className="text-center mb-8 font-bold text-sm md:text-lg">Reach Out, Connect, and Start Your Journey with Us Today!</p>
 

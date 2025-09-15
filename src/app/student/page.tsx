@@ -10,7 +10,7 @@ import Map from "@/components/home/map";
 
 export default function StudentPage() {
   return (
-    <div>
+    <div className="max-w-screen overflow-x-hidden">
       <Navbar />
       <div className="relative">
         <div className="w-[100%]">

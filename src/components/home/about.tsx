@@ -18,9 +18,9 @@ export default function About() {
                 {/* Text Section */}
                 <div className="w-full lg:w-[55%] space-y-4">
                     <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent ">
-                        <h1 className="text-header">
+                        <h2 className="text-header">
                             এলাকা সনদঃ
-                        </h1>
+                        </h2>
                     </div>
                     <p className="text-gray-700 leading-relaxed">
                         এই মর্মে প্রত্যায়ণ করা যাচ্ছে, ইমামপুর পল্লীমঙ্গল উচ্চ বিদ্যালয় পোঃ কালিপুর বাজার, ১ নং ষাটনল ইউনিয়ন,উপজেলাঃ মতলব উত্তর, জেলাঃচাঁদপুর। উক্ত প্রতিষ্ঠানটি

@@ -36,7 +36,7 @@ export default function Total_student() {
         {/* section 1  */}
         <section>
           {/* total student */}
-          <div className="flex flex-row items-center justify-center gap-28 mt-primary mb-low">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-28 mt-primary mb-low">
             <div className="flex-c-center">
               <div className="w-20 h-20 rounded-full bg-primary mb-2 flex-center"><Image src={boyI} alt="icon" className="w-6 " /></div>
               <h3 className="text-xl font-bold">ছাত্র</h3>

@@ -51,7 +51,7 @@ export default function TeacherPage() {
       </div>
 
       <div className="flex flex-col items-center mb-high">
-        <h3 className="text-header text-center mt-low mb-low" >All Teacher</h3>
+        <h3 className="text-header text-center mt-low mb-low" >শিক্ষক ও কর্মচারীবৃন্দ</h3>
         <div>
           {/* all teacher data */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">

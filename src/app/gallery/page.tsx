@@ -6,7 +6,7 @@ import Footer from "@/components/navigation/footer";
 
 export default function GalleryPage() {
   return (
-    <div>
+    <div className="max-w-screen overflow-x-hidden">
       <Navbar/>
       <div className="relative">
         <div className="w-[100%]">
